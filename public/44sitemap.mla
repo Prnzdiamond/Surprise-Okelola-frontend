@@ -4,19 +4,19 @@
   
   <!-- Homepage -->
   <url>
-    <loc>https://oseahumen-agboifoh-john.vercel.app/</loc>
+    <loc>https://surprise-okelola-frontend.vercel.app/</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://oseahumen-agboifoh-john.vercel.app/preview.jpg</image:loc>
-      <image:caption>Oseahumen Agboifoh John - Full-stack Developer Portfolio</image:caption>
+      <image:loc>https://surprise-okelola-frontend.vercel.app/preview.jpg</image:loc>
+      <image:caption>Surprise Okelola - Full-stack Developer Portfolio</image:caption>
     </image:image>
   </url>
   
   <!-- About Page -->
   <url>
-    <loc>https://oseahumen-agboifoh-john.vercel.app/about</loc>
+    <loc>https://surprise-okelola-frontend.vercel.app/about</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -24,7 +24,7 @@
   
   <!-- Projects Page -->
   <url>
-    <loc>https://oseahumen-agboifoh-john.vercel.app/projects</loc>
+    <loc>https://surprise-okelola-frontend.vercel.app/projects</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -32,7 +32,7 @@
   
   <!-- Contact Page -->
   <url>
-    <loc>https://oseahumen-agboifoh-john.vercel.app/contact</loc>
+    <loc>https://surprise-okelola-frontend.vercel.app/contact</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
