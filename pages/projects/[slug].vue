@@ -16,7 +16,7 @@
       
       <!-- Mobile-Optimized Hero Section -->
       <section class="relative h-48 sm:h-64 lg:h-96 overflow-hidden">
-        <NuxtImg 
+        <img 
           :src="heroImage" 
           :alt="projectStore.project?.title || 'Project'"
           class="w-full h-full object-cover"
@@ -88,7 +88,7 @@
                 <div class="relative bg-white dark:bg-gray-800 rounded-lg sm:rounded-xl lg:rounded-2xl shadow-xl border border-blue-100 dark:border-gray-700 overflow-hidden">
                   <!-- Main Image Display -->
                   <div class="relative h-48 sm:h-64 lg:h-80 xl:h-96 overflow-hidden group">
-                    <NuxtImg 
+                    <img 
                       :src="currentImage" 
                       :alt="projectStore.project?.title || 'Project'"
                       class="w-full h-full object-cover transition-all duration-500 cursor-pointer"
@@ -143,7 +143,7 @@
                         :class="{ 'ring-2 ring-blue-500': currentImageIndex === index }"
                         class="relative flex-shrink-0 w-12 h-9 sm:w-16 sm:h-12 lg:w-20 lg:h-16 rounded-md lg:rounded-lg overflow-hidden hover:scale-105 transition-all duration-200 focus:outline-none"
                       >
-                        <NuxtImg 
+                        <img 
                           :src="image" 
                           :alt="`${projectStore.project?.title || 'Project'} - Image ${index + 1}`"
                           class="w-full h-full object-cover"
@@ -209,7 +209,7 @@
                 <!-- Image Container -->
                 <div class="w-full h-full flex items-center justify-center p-2 sm:p-4" @click.stop>
                   <div class="relative max-w-full max-h-full flex items-center justify-center">
-                    <NuxtImg 
+                    <img 
                       :src="currentImage" 
                       :alt="`${projectStore.project?.title || 'Project'} - Image ${currentImageIndex + 1}`"
                       class="max-w-full max-h-full object-contain rounded-lg shadow-2xl transition-opacity duration-300"

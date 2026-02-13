@@ -24,7 +24,7 @@
           <!-- Avatar -->
           <div class="relative inline-block mb-8">
             <div class="relative w-40 h-40 mx-auto group">
-              <NuxtImg v-if="ownerStore.owner.avatar" :src="ownerStore.owner.avatar" :alt="ownerStore.owner.name"
+              <img v-if="ownerStore.owner.avatar" :src="ownerStore.owner.avatar" :alt="ownerStore.owner.name"
                 class="w-full h-full rounded-full object-cover shadow-2xl border-4 border-white dark:border-gray-800 group-hover:scale-105 transition-transform duration-500 animate-zoom-in" />
               <div
                 class="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-500/20 to-cyan-500/20 group-hover:from-blue-500/30 group-hover:to-cyan-500/30 transition-all duration-500">

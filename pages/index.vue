@@ -193,7 +193,7 @@
                 <!-- Avatar -->
 <div v-else-if="ownerStore.owner?.avatar || !ownerStore.loading" class="relative w-full h-full group">
   <ClientOnly>
-  <NuxtImg 
+  <img 
   :src="ownerStore.owner?.avatar || '/images/default_avatar.png'" 
   :alt="ownerStore.owner?.name || 'Social Media Manager'"
   @error="handleImageError($event, '/images/default_avatar.png')"
@@ -317,7 +317,7 @@
               <!-- Project Image -->
               <!-- Project Image -->
 <div class="relative h-48 overflow-hidden">
-  <NuxtImg 
+  <img 
   ref="avatarImgRef"
     :src="project.cover_image || '/images/default_pro_cover.png'" 
     :alt="project.title"
